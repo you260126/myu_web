@@ -23,5 +23,5 @@ class Pagination extends Component {
         );
     }
 }
- 
+
 export default Pagination;

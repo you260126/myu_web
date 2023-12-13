@@ -43,7 +43,7 @@ class AppSection extends Component {
                             <div className="app__item">
                                 <div className="app__inner">
                                     <div className="app__thumb">
-                                        <img src="assets/images/app/01.png" alt="dating thumb" />
+                                        <img src="assets/images/app/01.png" alt="dating thumb" width="386" height="216"/>
                                     </div>
                                 </div>
                             </div>
