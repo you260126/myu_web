@@ -5,10 +5,10 @@ import PageHeader from "../component/layout/pageheader";
 import GoogleMap from "../component/section/googlemap";
 
 
-const infotitle = "Contact Info";
-const infosubtitle = "Let us know your opinions. Also you can write us if you have any questions.";
-const contacttitle = "Feedback.";
-const contactdesc = "Let us know your opinions. Also you can write us if you have any questions..";
+const infotitle = "문의 안내";
+const infosubtitle = "문의하실 내용이나 질문이 있다면 하단의 정보를 이용해주세요!";
+const contacttitle = "피드백.";
+const contactdesc = "프로그램의 버그 혹은 신고를 원하신다면 아래 정보를 이용해주세요!";
 
 
 let infoListContent = [
@@ -16,19 +16,19 @@ let infoListContent = [
         imgUrl: 'assets/images/contact/icon/01.png',
         imgAlt: 'Contact Info Thumb',
         title: 'Office Address',
-        desc: '1201 park street, Fifth Avenue',
+        desc: '원대로 231-52',
     },
     {
         imgUrl: 'assets/images/contact/icon/02.png',
         imgAlt: 'Contact Info Thumb',
         title: 'Phone number',
-        desc: '+22698 745 632, 02 982 745',
+        desc: '063-123-5678',
     },
     {
         imgUrl: 'assets/images/contact/icon/03.png',
         imgAlt: 'Contact Info Thumb',
         title: 'Send Email',
-        desc: 'yourmail@gmail.com',
+        desc: 'yourmail@wku.ac.kr',
     },
 ]
 
@@ -48,7 +48,7 @@ class ContactUs extends Component {
         return (
             <Fragment>
                 <HeaderTwo />
-                <PageHeader title={'CONTACT US'} curPage={'CONTACT'} />
+                <PageHeader title={'1 : 1 문의'} curPage={'피드백'} />
                 <div className="info-section padding-top padding-bottom">
                     <div className="container">
                         <div className="section__header style-2 text-center">
@@ -139,7 +139,7 @@ class ContactUs extends Component {
                                                 ></textarea>
                                             </div>
                                             <div className="form-group w-100 text-center">
-                                                <button className="default-btn reverse" type="submit"><span>Send our Message</span></button>
+                                                <button className="default-btn reverse" type="submit"><span>메세지 보내기</span></button>
                                             </div>
                                         </form>
                                         <p className="form-message"></p>

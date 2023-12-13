@@ -2,9 +2,9 @@ import { Component } from "react";
 import { Link } from "react-router-dom";
 
 const newstitle = "뉴스레터 가입";
-const jointitle = "MyU sns 확인하기";
-const aboutTitle = "About myu";
-const aboutDesc = "myu는 커뮤니티 기능을 위한 리액트를 기반으로 한 친숙한 데이트 테마입니다.";
+const jointitle = "MyU SNS 확인하기";
+const aboutTitle = "About MyU";
+const aboutDesc = "MyU는 커뮤니티 기능을 위한 리액트를 기반으로 한 친숙한 데이트 테마입니다.";
 const featureTitle = "개발자";
 const supportTitle = "연락처 및 지원";
 const recentTitle = "최근 활동";
@@ -273,7 +273,7 @@ class FooterThree extends Component {
                 <div className="footer__bottom py-4">
                     <div className="container">
                         <div className="footer__content text-center">
-                            <p className="mb-0">All Rights Reserved &copy; <Link to="/"> myu </Link> || Design By: 개발자들</p>
+                            <p className="mb-0">All Rights Reserved &copy; <Link to="/"> MyU </Link> || Design By: 모태솔로팀</p>
                         </div>
                     </div>
                 </div>

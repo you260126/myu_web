@@ -1,8 +1,8 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
 
-const aboutTitle = "About myu";
-const aboutDesc = "myu는 커뮤니티 기능을 위한 리액트를 기반으로 한 친숙한 데이트 테마입니다.";
+const aboutTitle = "About MyU";
+const aboutDesc = "MyU는 커뮤니티 기능을 위한 리액트를 기반으로 한 친숙한 데이트 테마입니다.";
 const featureTitle = "개발자";
 const supportTitle = "연락처 및 지원";
 const recentTitle = "최근 활동";
@@ -224,7 +224,7 @@ class FooterTwo extends Component {
                         <div className="row g-4 g-lg-0 justify-content-lg-between align-items-center">
                             <div className="col-lg-6 col-12">
                                 <div className="footer__content text-center">
-                                    <p className="mb-0">All Rights Reserved &copy; <Link to="/"> myu </Link> || 개발자들</p>
+                                    <p className="mb-0">All Rights Reserved &copy; <Link to="/"> MyU </Link> || 모태솔로팀</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-12">

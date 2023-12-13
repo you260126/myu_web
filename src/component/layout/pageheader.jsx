@@ -13,7 +13,7 @@ class PageHeader extends Component {//서브페이지 메인 배너이미지
                         <h2>{title}</h2>
                         <nav aria-label="breadcrumb">
                             <ol className="breadcrumb justify-content-center mb-0">
-                                <li className="breadcrumb-item"><Link to="/">메인으로 이동</Link></li>
+                                <li className="breadcrumb-item"><Link to="/">문의 정보</Link></li>
                                 <li className="breadcrumb-item active" aria-current="page">{curPage}</li>
                             </ol>
                         </nav>

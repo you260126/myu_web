@@ -2,7 +2,7 @@ import { Component } from "react";
 import { Link } from "react-router-dom";
 
 const newstitle = "뉴스레터 가입";
-const jointitle = "MyU sns 확인하기";
+const jointitle = "MyU SNS 확인하기";
 const infotitle = "회사 정보";
 const accountTitle = "내 계정";
 const helpTitle = "지원 센터";
@@ -258,7 +258,7 @@ class Footer extends Component {
                 <div className="footer__bottom wow fadeInUp" data-wow-duration="1.5s">
                     <div className="container">
                         <div className="footer__content text-center">
-                            <p className="mb-0">All Rights Reserved &copy; <Link to="/"> myu </Link> || Design By: 개발자들</p>
+                            <p className="mb-0">All Rights Reserved &copy; <Link to="/"> MyU </Link> || Design By: 모태솔로팀</p>
                         </div>
                     </div>
                 </div>
