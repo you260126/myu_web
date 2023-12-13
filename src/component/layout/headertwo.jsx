@@ -33,6 +33,7 @@ class HeaderTwo extends Component {
                                             </ul>
                                         </li>
                                         <li><NavLink to="/contact">문의하기</NavLink></li>
+                                        <li><NavLink to="/policy">공지사항</NavLink></li>
                                     </ul>
                                 </div>
                             </div>
